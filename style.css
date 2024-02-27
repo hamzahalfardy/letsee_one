@@ -1,0 +1,104 @@
+body{
+    background-image: url('bgd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.web-items{
+    background-color: white;
+    margin:6rem 3rem 6rem 3rem;
+}
+
+/*view for both web name and navigation bar*/
+.web-nav{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 40rem;
+    padding: 2rem 0 2rem 3rem;
+    
+    
+    
+    
+}
+
+/*This is the web name view*/
+.school{
+    font-size: large;
+    font-family:serif;
+    
+}
+
+
+/*the nav bar unorder-list*/ 
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    
+       
+}
+
+li{
+    padding-right: 1rem;
+    
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+
+}
+
+li a span{
+    color:white;
+    border:1px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(106, 211, 57);
+}
+/*the div for the contents on the web page*/
+.content{
+    justify-content: left;
+    padding: 10px;
+}
+/* the content and the image view*/
+.webpage{
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    margin-left: 1.5rem;
+    padding-top: 4rem;
+    gap: 18rem;
+
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgba(19, 167, 38, 0.911);
+}
+
+/* the paragragh under the h1 element*/
+
+#cnt{
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* the sign up  span*/
+span{
+    color:white;
+    border:1px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(19, 167, 38, 0.911);
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
